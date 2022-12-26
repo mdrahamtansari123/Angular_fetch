@@ -1,0 +1,11 @@
+<h1 >
+  <!-- Welcome to {{ title }}! -->
+  <p *ngFor='let country of countryData'>
+    ID:-{{country.id}}
+     Name:-{{country.name}}<br>
+     Username:- {{country.username}}<br>
+     EmailId:- {{country.email}}
+  </p>
+</h1>
+
+<router-outlet></router-outlet>
